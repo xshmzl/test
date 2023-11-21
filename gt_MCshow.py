@@ -19,7 +19,7 @@ isovalue = 0.699999
 #vertices, triangles = marching_cubes(data.data, isovalue)
 
 # 调整 Marching Cubes 等参数
-vertices, triangles = marching_cubes(data.data, isovalue, method='simplify')
+vertices, triangles = marching_cubes(data.data, isovalue)
 
 
 # 可视化结果
